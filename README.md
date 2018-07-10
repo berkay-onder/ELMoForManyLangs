@@ -1,5 +1,5 @@
-Pre-trained ELMo Representations on Many Languages
-==================================================
+Pre-trained ELMo Representations for Many Languages
+===================================================
 
 We release our ELMo representations trained on many languages
 which helps us win the [CoNLL 2018 shared task on Universal Dependencies Parsing](http://universaldependencies.org/conll18/results.html)
@@ -7,14 +7,14 @@ according to LAS.
 
 ## Technique Details
 
-We use the same hyperparameter settings as [Peters et al. (2018)](https://arxiv.org/abs/1802.05365) for biLM
+We use the same hyperparameter settings as [Peters et al. (2018)](https://arxiv.org/abs/1802.05365) for the biLM
 and the character CNN.
 We train their parameters
-on a set of 20 million words data randomly
+on a set of 20-million-words data randomly
 sampled from the raw text released by the shared task (wikidump + common crawl) for each language.
-We largely based ourselves on the released code of [AllenNLP](https://allennlp.org/), but made the following changes:
+We largely based ourselves on the code of [AllenNLP](https://allennlp.org/), but made the following changes:
 
-* We support unicode character; 
+* We support unicode characters;
 * We use the *sample softmax* technique
 to make training on large vocabulary feasible ([Jean et al., 2015](https://arxiv.org/abs/1412.2007)).
 However, we use a window of words surrounding the target word
@@ -47,7 +47,7 @@ The training of ELMo on one language takes roughly 3 days on an NVIDIA P100 GPU.
 
 ## Usage
 
-First, please change the `"config_path"` field in `${lang}.model/config.json`
+First, after unzip the model, please change the `"config_path"` field in `${lang}.model/config.json`
 to `${project_home}/configs/cnn_50_100_512_4096_sample.json`.
 
 Then, prepare your input file in the [conllu format](http://universaldependencies.org/format.html).
