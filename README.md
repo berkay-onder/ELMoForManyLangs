@@ -37,7 +37,11 @@ The training of ELMo on one language takes roughly 3 days on an NVIDIA P100 GPU.
 | [Dutch](http://pbmpb9h15.bkt.gdipper.com/nl.model.tar.xz) | [Norwegian-Bokmaal](http://pbmpb9h15.bkt.gdipper.com/no_bokmaal.model.tar.xz) | [Norwegian-Nynorsk](http://pbmpb9h15.bkt.gdipper.com/no_nynorsk.model.tar.xz) | [Polish](http://pbmpb9h15.bkt.gdipper.com/pl.model.tar.xz) | 
 | [Portuguese](http://pbmpb9h15.bkt.gdipper.com/pt.model.tar.xz) | [Romanian](http://pbmpb9h15.bkt.gdipper.com/ro.model.tar.xz) | [Russian](http://pbmpb9h15.bkt.gdipper.com/ru.model.tar.xz) | [Slovak](http://pbmpb9h15.bkt.gdipper.com/sk.model.tar.xz) |
 | [Slovenian](http://pbmpb9h15.bkt.gdipper.com/sl.model.tar.xz) | [Swedish](http://pbmpb9h15.bkt.gdipper.com/sv.model.tar.xz) | [Turkish](http://pbmpb9h15.bkt.gdipper.com/tr.model.tar.xz) | [Uyghur](http://pbmpb9h15.bkt.gdipper.com/ug.model.tar.xz) |
-| [Ukrainian](http://pbmpb9h15.bkt.gdipper.com/uk.model.tar.xz) | [Urdu](http://pbmpb9h15.bkt.gdipper.com/ur.model.tar.xz) | [Vietnamese](http://pbmpb9h15.bkt.gdipper.com/vi.model.tar.xz) | [Chinese](http://pbmpb9h15.bkt.gdipper.com/zh.model.tar.xz) | 
+| [Ukrainian](http://pbmpb9h15.bkt.gdipper.com/uk.model.tar.xz) | [Urdu](http://pbmpb9h15.bkt.gdipper.com/ur.model.tar.xz) | [Vietnamese](http://pbmpb9h15.bkt.gdipper.com/vi.model.tar.xz) | [Traditional-Chinese](http://pbmpb9h15.bkt.gdipper.com/zht.model.tar.xz) |
+| [Simplified-Chinese](http://pbmpb9h15.bkt.gdipper.com/zhs.model.tar.xz) | | |
+
+
+The Simplified Chinese model was trained on xinhua proportion of gigawords-v5.
 
 ## Pre-requirements
 
@@ -89,4 +93,4 @@ If our ELMo gave you nice improvements, please cite us.
 
 ## Contributor
 
-* Bo Zheng <bzheng@ir.hit.edu.cn>
+* Bo Zheng <<bzheng@ir.hit.edu.cn>>
