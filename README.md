@@ -54,7 +54,17 @@ The Simplified Chinese model was trained on xinhua proportion of gigawords-v5.
 First, after unzip the model, please change the `"config_path"` field in `${lang}.model/config.json`
 to `${project_home}/configs/cnn_50_100_512_4096_sample.json`.
 
-Then, prepare your input file in the [conllu format](http://universaldependencies.org/format.html).
+Then, prepare your input file in the [conllu format](http://universaldependencies.org/format.html), like
+```
+1   Sue    Sue    _   _   _   _   _   _   _
+2   likes  like   _   _   _   _   _   _   _
+3   coffee coffee _   _   _   _   _   _   _
+4   and    and    _   _   _   _   _   _   _
+5   Bill   Bill   _   _   _   _   _   _   _
+6   tea    tea    _   _   _   _   _   _   _
+```
+Fileds should be separate by `'\t'`. We only use the second column and space (`' '`) is allowed in
+this field (for Vietnamese, a word can contains space).
 Do remember tokenization!
 
 When it's all set, run
