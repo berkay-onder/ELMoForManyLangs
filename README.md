@@ -41,7 +41,7 @@ The training of ELMo on one language takes roughly 3 days on an NVIDIA P100 GPU.
 | [Simplified-Chinese](http://pbmpb9h15.bkt.gdipper.com/zhs.model.tar.xz) | | |
 
 
-The Simplified Chinese model was trained on xinhua proportion of gigawords-v5.
+The Simplified Chinese model was trained on xinhua proportion of [Chinese gigawords-v5](https://catalog.ldc.upenn.edu/ldc2011t13).
 
 ## Pre-requirements
 
@@ -63,8 +63,8 @@ Then, prepare your input file in the [conllu format](http://universaldependencie
 5   Bill   Bill   _   _   _   _   _   _   _
 6   tea    tea    _   _   _   _   _   _   _
 ```
-Fileds should be separate by `'\t'`. We only use the second column and space (`' '`) is allowed in
-this field (for Vietnamese, a word can contains space).
+Fileds should be separated by `'\t'`. We only use the second column and space (`' '`) is supported in
+this field (for Vietnamese, a word can contains spaces).
 Do remember tokenization!
 
 When it's all set, run
@@ -74,12 +74,16 @@ python src/gen_elmo.py test \
     --input_format conll \
     --input /path/to/your/input \
     --model /path/to/your/model \
-    --output_ave /path/to/your/output
+    --output_prefix /path/to/your/output \
+    --output_format hdf5 \
+    --output_layer -1
 ```
 
 It will dump an hdf5 encoded `dict` onto the disk, where the key is `'\t'` separated
 words in the sentence and the value is it's 3-layer averaged ELMo representation.
-You can also dump the first layer using the `--output_lstm` option.
+You can also dump the cnn encoded word with `--output_layer 0`,
+the first layer of the LsTM with `--output_layer 1` and the second layer
+of the LSTM with `--output_layer 2`.  
 We are actively changing the interface to make it more adapted to the 
 AllenNLP ELMo and more programmatically friendly.
 
@@ -98,8 +102,20 @@ improve it in the future.
 
 If our ELMo gave you nice improvements, please cite us.
 
-* Wanxiang Che, Yijia Liu, Yuxuan Wang, Bo Zheng, and Ting Liu. 2018. Towards Better UD Parsing: Deep Contextualized Word Embeddings, Ensemble, and Treebank Concatenation. (to appear) In Proceedings of the CoNLL 2018 Shared Task: Multilingual Parsing from Raw Text to Universal Dependencies (CoNLL).
+```
+@InProceedings{che-EtAl:2018:K18-2,
+  author    = {Che, Wanxiang  and  Liu, Yijia  and  Wang, Yuxuan  and  Zheng, Bo  and  Liu, Ting},
+  title     = {Towards Better {UD} Parsing: Deep Contextualized Word Embeddings, Ensemble, and Treebank Concatenation},
+  booktitle = {Proceedings of the {CoNLL} 2018 Shared Task: Multilingual Parsing from Raw Text to Universal Dependencies},
+  month     = {October},
+  year      = {2018},
+  address   = {Brussels, Belgium},
+  publisher = {Association for Computational Linguistics},
+  pages     = {55--64},
+  url       = {http://www.aclweb.org/anthology/K18-2005}
+}
 
+```
 
 ## Contributor
 
