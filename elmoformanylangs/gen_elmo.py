@@ -17,11 +17,11 @@ import torch.nn as nn
 import torch.nn.functional as F
 import torch.optim as optim
 from torch.autograd import Variable
-from modules.elmo import ElmobiLm
-from modules.lstm import LstmbiLm
-from modules.token_embedder import ConvTokenEmbedder, LstmTokenEmbedder
-from modules.embedding_layer import EmbeddingLayer
-from dataloader import load_embedding
+from .modules.elmo import ElmobiLm
+from .modules.lstm import LstmbiLm
+from .modules.token_embedder import ConvTokenEmbedder, LstmTokenEmbedder
+from .modules.embedding_layer import EmbeddingLayer
+from .dataloader import load_embedding
 import subprocess
 import numpy as np
 import h5py
