@@ -39,6 +39,8 @@ The training of ELMo on one language takes roughly 3 days on an NVIDIA P100 GPU.
 | [Slovenian](http://vectors.nlpl.eu/repository/hit/sl.model.tar.xz) | [Swedish](http://vectors.nlpl.eu/repository/hit/sv.model.tar.xz) | [Turkish](http://vectors.nlpl.eu/repository/hit/tr.model.tar.xz) | [Uyghur](http://vectors.nlpl.eu/repository/hit/ug.model.tar.xz) |
 | [Ukrainian](http://vectors.nlpl.eu/repository/hit/uk.model.tar.xz) | [Urdu](http://vectors.nlpl.eu/repository/hit/ur.model.tar.xz) | [Vietnamese](http://vectors.nlpl.eu/repository/hit/vi.model.tar.xz) | [Traditional-Chinese](http://vectors.nlpl.eu/repository/hit/zht.model.tar.xz) |
 
+The models are hosted on the [NLPL word embeddings repository project](http://vectors.nlpl.eu/repository/).
+
 **ELMo for Simplified Chinese**
 
 We also provided [simplified-Chinese ELMo](http://pbmpb9h15.bkt.gdipper.com/zhs.model.tar.xz).
