@@ -136,6 +136,3 @@ for hosting the models.
   url       = {http://www.aclweb.org/anthology/W17-0237}
 }
 ```
-## Contributor
-
-* Bo Zheng <<bzheng@ir.hit.edu.cn>>
