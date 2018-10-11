@@ -34,12 +34,12 @@ The training of ELMo on one language takes roughly 3 days on an NVIDIA P100 GPU.
 | [Galician](http://vectors.nlpl.eu/repository/hit/gl.model.tar.xz) | [Ancient_Greek](http://vectors.nlpl.eu/repository/hit/grc.model.tar.xz) | [Hebrew](http://vectors.nlpl.eu/repository/hit/he.model.tar.xz) | [Hindi](http://vectors.nlpl.eu/repository/hit/hi.model.tar.xz) | 
 | [Croatian](http://vectors.nlpl.eu/repository/hit/hr.model.tar.xz) | [Hungarian](http://vectors.nlpl.eu/repository/hit/hu.model.tar.xz) | [Indonesian](http://vectors.nlpl.eu/repository/hit/id.model.tar.xz) | [Italian](http://vectors.nlpl.eu/repository/hit/it.model.tar.xz) |
 | [Japanese](http://vectors.nlpl.eu/repository/hit/ja.model.tar.xz) | [Korean](http://vectors.nlpl.eu/repository/hit/ko.model.tar.xz) | [Latin](http://vectors.nlpl.eu/repository/hit/la.model.tar.xz) | [Latvian](http://vectors.nlpl.eu/repository/hit/lv.model.tar.xz) |
-| [Dutch](http://vectors.nlpl.eu/repository/hit/nl.model.tar.xz) | [Norwegian-Bokmaal](http://vectors.nlpl.eu/repository/hit/no_bokmaal.model.tar.xz) | [Norwegian-Nynorsk](http://vectors.nlpl.eu/repository/hit/no_nynorsk.model.tar.xz) | [Polish](http://vectors.nlpl.eu/repository/hit/pl.model.tar.xz) | 
+| [Dutch](http://vectors.nlpl.eu/repository/hit/nl.model.tar.xz) | [Norwegian-Bokmaal](http://vectors.nlpl.eu/repository/hit/nb.model.tar.xz) | [Norwegian-Nynorsk](http://vectors.nlpl.eu/repository/hit/nn.model.tar.xz) | [Polish](http://vectors.nlpl.eu/repository/hit/pl.model.tar.xz) | 
 | [Portuguese](http://vectors.nlpl.eu/repository/hit/pt.model.tar.xz) | [Romanian](http://vectors.nlpl.eu/repository/hit/ro.model.tar.xz) | [Russian](http://vectors.nlpl.eu/repository/hit/ru.model.tar.xz) | [Slovak](http://vectors.nlpl.eu/repository/hit/sk.model.tar.xz) |
 | [Slovenian](http://vectors.nlpl.eu/repository/hit/sl.model.tar.xz) | [Swedish](http://vectors.nlpl.eu/repository/hit/sv.model.tar.xz) | [Turkish](http://vectors.nlpl.eu/repository/hit/tr.model.tar.xz) | [Uyghur](http://vectors.nlpl.eu/repository/hit/ug.model.tar.xz) |
 | [Ukrainian](http://vectors.nlpl.eu/repository/hit/uk.model.tar.xz) | [Urdu](http://vectors.nlpl.eu/repository/hit/ur.model.tar.xz) | [Vietnamese](http://vectors.nlpl.eu/repository/hit/vi.model.tar.xz) | [Traditional-Chinese](http://vectors.nlpl.eu/repository/hit/zht.model.tar.xz) |
 
-The models are hosted on the [NLPL word embeddings repository project](http://vectors.nlpl.eu/repository/).
+The models are hosted on the [NLPL Vectors Repository](http://wiki.nlpl.eu/index.php/Vectors/home).
 
 **ELMo for Simplified Chinese**
 
@@ -121,7 +121,7 @@ If our ELMo gave you nice improvements, please cite us.
 ```
 
 Please also cite the 
-[NLPL word embeddings repository project](http://vectors.nlpl.eu/repository/)
+[NLPL Vectors Repository](http://wiki.nlpl.eu/index.php/Vectors/home)
 for hosting the models.
 ```
 @InProceedings{fares-EtAl:2017:NoDaLiDa,
