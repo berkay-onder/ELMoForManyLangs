@@ -27,21 +27,23 @@ The training of ELMo on one language takes roughly 3 days on an NVIDIA P100 GPU.
 
 |   |   |   |   |
 |---|---|---|---|
-| [Arabic](http://pbmpb9h15.bkt.gdipper.com/ar.model.tar.xz) | [Bulgarian](http://pbmpb9h15.bkt.gdipper.com/bg.model.tar.xz) | [Catalan](http://pbmpb9h15.bkt.gdipper.com/ca.model.tar.xz) | [Czech](http://pbmpb9h15.bkt.gdipper.com/cs.model.tar.xz)  |
-| [Old Church Slavonic](http://pbmpb9h15.bkt.gdipper.com/cu.model.tar.xz) | [Danish](http://pbmpb9h15.bkt.gdipper.com/da.model.tar.xz) | [German](http://pbmpb9h15.bkt.gdipper.com/de.model.tar.xz) | [Greek](http://pbmpb9h15.bkt.gdipper.com/el.model.tar.xz) | 
-| [English](http://pbmpb9h15.bkt.gdipper.com/en.model.tar.xz) | [Spanish](http://pbmpb9h15.bkt.gdipper.com/es.model.tar.xz) | [Estonian](http://pbmpb9h15.bkt.gdipper.com/et.model.tar.xz) | [Basque](http://pbmpb9h15.bkt.gdipper.com/eu.model.tar.xz) |
-| [Persian](http://pbmpb9h15.bkt.gdipper.com/fa.model.tar.xz) | [Finnish](http://pbmpb9h15.bkt.gdipper.com/fi.model.tar.xz) | [French](http://pbmpb9h15.bkt.gdipper.com/fr.model.tar.xz) | [Irish](http://pbmpb9h15.bkt.gdipper.com/ga.model.tar.xz) | 
-| [Galician](http://pbmpb9h15.bkt.gdipper.com/gl.model.tar.xz) | [Ancient_Greek](http://pbmpb9h15.bkt.gdipper.com/grc.model.tar.xz) | [Hebrew](http://pbmpb9h15.bkt.gdipper.com/he.model.tar.xz) | [Hindi](http://pbmpb9h15.bkt.gdipper.com/hi.model.tar.xz) | 
-| [Croatian](http://pbmpb9h15.bkt.gdipper.com/hr.model.tar.xz) | [Hungarian](http://pbmpb9h15.bkt.gdipper.com/hu.model.tar.xz) | [Indonesian](http://pbmpb9h15.bkt.gdipper.com/id.model.tar.xz) | [Italian](http://pbmpb9h15.bkt.gdipper.com/it.model.tar.xz) |
-| [Japanese](http://pbmpb9h15.bkt.gdipper.com/ja.model.tar.xz) | [Korean](http://pbmpb9h15.bkt.gdipper.com/ko.model.tar.xz) | [Latin](http://pbmpb9h15.bkt.gdipper.com/la.model.tar.xz) | [Latvian](http://pbmpb9h15.bkt.gdipper.com/lv.model.tar.xz) |
-| [Dutch](http://pbmpb9h15.bkt.gdipper.com/nl.model.tar.xz) | [Norwegian-Bokmaal](http://pbmpb9h15.bkt.gdipper.com/no_bokmaal.model.tar.xz) | [Norwegian-Nynorsk](http://pbmpb9h15.bkt.gdipper.com/no_nynorsk.model.tar.xz) | [Polish](http://pbmpb9h15.bkt.gdipper.com/pl.model.tar.xz) | 
-| [Portuguese](http://pbmpb9h15.bkt.gdipper.com/pt.model.tar.xz) | [Romanian](http://pbmpb9h15.bkt.gdipper.com/ro.model.tar.xz) | [Russian](http://pbmpb9h15.bkt.gdipper.com/ru.model.tar.xz) | [Slovak](http://pbmpb9h15.bkt.gdipper.com/sk.model.tar.xz) |
-| [Slovenian](http://pbmpb9h15.bkt.gdipper.com/sl.model.tar.xz) | [Swedish](http://pbmpb9h15.bkt.gdipper.com/sv.model.tar.xz) | [Turkish](http://pbmpb9h15.bkt.gdipper.com/tr.model.tar.xz) | [Uyghur](http://pbmpb9h15.bkt.gdipper.com/ug.model.tar.xz) |
-| [Ukrainian](http://pbmpb9h15.bkt.gdipper.com/uk.model.tar.xz) | [Urdu](http://pbmpb9h15.bkt.gdipper.com/ur.model.tar.xz) | [Vietnamese](http://pbmpb9h15.bkt.gdipper.com/vi.model.tar.xz) | [Traditional-Chinese](http://pbmpb9h15.bkt.gdipper.com/zht.model.tar.xz) |
-| [Simplified-Chinese](http://pbmpb9h15.bkt.gdipper.com/zhs.model.tar.xz) | | |
+| [Arabic](http://vectors.nlpl.eu/repository/hit/ar.model.tar.xz) | [Bulgarian](http://vectors.nlpl.eu/repository/hit/bg.model.tar.xz) | [Catalan](http://vectors.nlpl.eu/repository/hit/ca.model.tar.xz) | [Czech](http://vectors.nlpl.eu/repository/hit/cs.model.tar.xz)  |
+| [Old Church Slavonic](http://vectors.nlpl.eu/repository/hit/cu.model.tar.xz) | [Danish](http://vectors.nlpl.eu/repository/hit/da.model.tar.xz) | [German](http://vectors.nlpl.eu/repository/hit/de.model.tar.xz) | [Greek](http://vectors.nlpl.eu/repository/hit/el.model.tar.xz) | 
+| [English](http://vectors.nlpl.eu/repository/hit/en.model.tar.xz) | [Spanish](http://vectors.nlpl.eu/repository/hit/es.model.tar.xz) | [Estonian](http://vectors.nlpl.eu/repository/hit/et.model.tar.xz) | [Basque](http://vectors.nlpl.eu/repository/hit/eu.model.tar.xz) |
+| [Persian](http://vectors.nlpl.eu/repository/hit/fa.model.tar.xz) | [Finnish](http://vectors.nlpl.eu/repository/hit/fi.model.tar.xz) | [French](http://vectors.nlpl.eu/repository/hit/fr.model.tar.xz) | [Irish](http://vectors.nlpl.eu/repository/hit/ga.model.tar.xz) | 
+| [Galician](http://vectors.nlpl.eu/repository/hit/gl.model.tar.xz) | [Ancient_Greek](http://vectors.nlpl.eu/repository/hit/grc.model.tar.xz) | [Hebrew](http://vectors.nlpl.eu/repository/hit/he.model.tar.xz) | [Hindi](http://vectors.nlpl.eu/repository/hit/hi.model.tar.xz) | 
+| [Croatian](http://vectors.nlpl.eu/repository/hit/hr.model.tar.xz) | [Hungarian](http://vectors.nlpl.eu/repository/hit/hu.model.tar.xz) | [Indonesian](http://vectors.nlpl.eu/repository/hit/id.model.tar.xz) | [Italian](http://vectors.nlpl.eu/repository/hit/it.model.tar.xz) |
+| [Japanese](http://vectors.nlpl.eu/repository/hit/ja.model.tar.xz) | [Korean](http://vectors.nlpl.eu/repository/hit/ko.model.tar.xz) | [Latin](http://vectors.nlpl.eu/repository/hit/la.model.tar.xz) | [Latvian](http://vectors.nlpl.eu/repository/hit/lv.model.tar.xz) |
+| [Dutch](http://vectors.nlpl.eu/repository/hit/nl.model.tar.xz) | [Norwegian-Bokmaal](http://vectors.nlpl.eu/repository/hit/no_bokmaal.model.tar.xz) | [Norwegian-Nynorsk](http://vectors.nlpl.eu/repository/hit/no_nynorsk.model.tar.xz) | [Polish](http://vectors.nlpl.eu/repository/hit/pl.model.tar.xz) | 
+| [Portuguese](http://vectors.nlpl.eu/repository/hit/pt.model.tar.xz) | [Romanian](http://vectors.nlpl.eu/repository/hit/ro.model.tar.xz) | [Russian](http://vectors.nlpl.eu/repository/hit/ru.model.tar.xz) | [Slovak](http://vectors.nlpl.eu/repository/hit/sk.model.tar.xz) |
+| [Slovenian](http://vectors.nlpl.eu/repository/hit/sl.model.tar.xz) | [Swedish](http://vectors.nlpl.eu/repository/hit/sv.model.tar.xz) | [Turkish](http://vectors.nlpl.eu/repository/hit/tr.model.tar.xz) | [Uyghur](http://vectors.nlpl.eu/repository/hit/ug.model.tar.xz) |
+| [Ukrainian](http://vectors.nlpl.eu/repository/hit/uk.model.tar.xz) | [Urdu](http://vectors.nlpl.eu/repository/hit/ur.model.tar.xz) | [Vietnamese](http://vectors.nlpl.eu/repository/hit/vi.model.tar.xz) | [Traditional-Chinese](http://vectors.nlpl.eu/repository/hit/zht.model.tar.xz) |
 
+**ELMo for Simplified Chinese**
 
-The Simplified Chinese model was trained on xinhua proportion of [Chinese gigawords-v5](https://catalog.ldc.upenn.edu/ldc2011t13).
+We also provided [simplified-Chinese ELMo](http://pbmpb9h15.bkt.gdipper.com/zhs.model.tar.xz).
+It was trained on xinhua proportion of [Chinese gigawords-v5](https://catalog.ldc.upenn.edu/ldc2011t13),
+which is different from the Wikipedia for traditional Chinese ELMo.
 
 ## Pre-requirements
 
@@ -114,9 +116,24 @@ If our ELMo gave you nice improvements, please cite us.
   pages     = {55--64},
   url       = {http://www.aclweb.org/anthology/K18-2005}
 }
-
 ```
 
+Please also cite the 
+[NLPL word embeddings repository project](http://vectors.nlpl.eu/repository/)
+for hosting the models.
+```
+@InProceedings{fares-EtAl:2017:NoDaLiDa,
+  author    = {Fares, Murhaf  and  Kutuzov, Andrey  and  Oepen, Stephan  and  Velldal, Erik},
+  title     = {Word vectors, reuse, and replicability: Towards a community repository of large-text resources},
+  booktitle = {Proceedings of the 21st Nordic Conference on Computational Linguistics},
+  month     = {May},
+  year      = {2017},
+  address   = {Gothenburg, Sweden},
+  publisher = {Association for Computational Linguistics},
+  pages     = {271--276},
+  url       = {http://www.aclweb.org/anthology/W17-0237}
+}
+```
 ## Contributor
 
 * Bo Zheng <<bzheng@ir.hit.edu.cn>>
