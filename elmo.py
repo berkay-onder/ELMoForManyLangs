@@ -228,10 +228,12 @@ class Model(nn.Module):
                                                 map_location=lambda storage, loc: storage))
 
 class Embedder():
-    def __init__(self):
+    def __init__(self, model_dir='zht.model/', batch_size=64):
+        self.model_dir = model_dir
         self.model, self.config = self.get_model()
-        self.batch_size = 64
-    def get_model(self, model_path=os.path.join(os.path.abspath(os.path.join(__file__ ,"..")), 'zht.model/')):
+        self.batch_size = batch_size
+    def get_model(self):
+        model_path=os.path.join(os.path.abspath(os.path.join(__file__ ,"..")), self.model_dir)
         # torch.cuda.set_device(1)
         self.use_cuda = torch.cuda.is_available()
         # load the model configurations
