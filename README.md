@@ -8,7 +8,7 @@ I wrote a easy-to-use version to converting tokens to vectors. You can use it li
 
 ```python
 #import it outside the top directory of this repo
-from ELMoForManyLangs.elmo import Embedder
+from ELMoForManyLangs.src.elmo import Embedder
 
 e = Embedder()
 
@@ -38,4 +38,5 @@ def sents2elmo(sents, output_layer=-1):
 
 * **must** python>=3.6 (if you use python3.5, you will encounter this issue https://github.com/HIT-SCIR/ELMoForManyLangs/issues/8) 
 * pytorch 0.4
+* overrides
 * other requirements from allennlp
