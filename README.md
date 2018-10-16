@@ -8,9 +8,9 @@ I wrote a easy-to-use version to converting tokens to vectors. You can use it li
 
 ```python
 #import it outside the top directory of this repo
-from ELMoForManyLangs.src.elmo import Embedder
+from ELMoForManyLangs import elmo
 
-e = Embedder()
+e = elmo.Embedder()
 
 sents = [['今', '天', '天氣', '真', '好', '阿'],
 ['潮水', '退', '了', '就', '知道', '誰', '沒', '穿', '褲子']]
