@@ -27,18 +27,17 @@ The training of ELMo on one language takes roughly 3 days on an NVIDIA P100 GPU.
 
 |   |   |   |   |
 |---|---|---|---|
-| [Arabic](http://vectors.nlpl.eu/repository/hit/ar.model.tar.xz) | [Bulgarian](http://vectors.nlpl.eu/repository/hit/bg.model.tar.xz) | [Catalan](http://vectors.nlpl.eu/repository/hit/ca.model.tar.xz) | [Czech](http://vectors.nlpl.eu/repository/hit/cs.model.tar.xz)  |
-| [Old Church Slavonic](http://vectors.nlpl.eu/repository/hit/cu.model.tar.xz) | [Danish](http://vectors.nlpl.eu/repository/hit/da.model.tar.xz) | [German](http://vectors.nlpl.eu/repository/hit/de.model.tar.xz) | [Greek](http://vectors.nlpl.eu/repository/hit/el.model.tar.xz) | 
-| [English](http://vectors.nlpl.eu/repository/hit/en.model.tar.xz) | [Spanish](http://vectors.nlpl.eu/repository/hit/es.model.tar.xz) | [Estonian](http://vectors.nlpl.eu/repository/hit/et.model.tar.xz) | [Basque](http://vectors.nlpl.eu/repository/hit/eu.model.tar.xz) |
-| [Persian](http://vectors.nlpl.eu/repository/hit/fa.model.tar.xz) | [Finnish](http://vectors.nlpl.eu/repository/hit/fi.model.tar.xz) | [French](http://vectors.nlpl.eu/repository/hit/fr.model.tar.xz) | [Irish](http://vectors.nlpl.eu/repository/hit/ga.model.tar.xz) | 
-| [Galician](http://vectors.nlpl.eu/repository/hit/gl.model.tar.xz) | [Ancient_Greek](http://vectors.nlpl.eu/repository/hit/grc.model.tar.xz) | [Hebrew](http://vectors.nlpl.eu/repository/hit/he.model.tar.xz) | [Hindi](http://vectors.nlpl.eu/repository/hit/hi.model.tar.xz) | 
-| [Croatian](http://vectors.nlpl.eu/repository/hit/hr.model.tar.xz) | [Hungarian](http://vectors.nlpl.eu/repository/hit/hu.model.tar.xz) | [Indonesian](http://vectors.nlpl.eu/repository/hit/id.model.tar.xz) | [Italian](http://vectors.nlpl.eu/repository/hit/it.model.tar.xz) |
-| [Japanese](http://vectors.nlpl.eu/repository/hit/ja.model.tar.xz) | [Korean](http://vectors.nlpl.eu/repository/hit/ko.model.tar.xz) | [Latin](http://vectors.nlpl.eu/repository/hit/la.model.tar.xz) | [Latvian](http://vectors.nlpl.eu/repository/hit/lv.model.tar.xz) |
-| [Dutch](http://vectors.nlpl.eu/repository/hit/nl.model.tar.xz) | [Norwegian-Bokmaal](http://vectors.nlpl.eu/repository/hit/nb.model.tar.xz) | [Norwegian-Nynorsk](http://vectors.nlpl.eu/repository/hit/nn.model.tar.xz) | [Polish](http://vectors.nlpl.eu/repository/hit/pl.model.tar.xz) | 
-| [Portuguese](http://vectors.nlpl.eu/repository/hit/pt.model.tar.xz) | [Romanian](http://vectors.nlpl.eu/repository/hit/ro.model.tar.xz) | [Russian](http://vectors.nlpl.eu/repository/hit/ru.model.tar.xz) | [Slovak](http://vectors.nlpl.eu/repository/hit/sk.model.tar.xz) |
-| [Slovenian](http://vectors.nlpl.eu/repository/hit/sl.model.tar.xz) | [Swedish](http://vectors.nlpl.eu/repository/hit/sv.model.tar.xz) | [Turkish](http://vectors.nlpl.eu/repository/hit/tr.model.tar.xz) | [Uyghur](http://vectors.nlpl.eu/repository/hit/ug.model.tar.xz) |
-| [Ukrainian](http://vectors.nlpl.eu/repository/hit/uk.model.tar.xz) | [Urdu](http://vectors.nlpl.eu/repository/hit/ur.model.tar.xz) | [Vietnamese](http://vectors.nlpl.eu/repository/hit/vi.model.tar.xz) | [Traditional-Chinese](http://vectors.nlpl.eu/repository/hit/zht.model.tar.xz) |
-
+| [Arabic](http://vectors.nlpl.eu/repository/11/136.zip) | [Bulgarian](http://vectors.nlpl.eu/repository/11/137.zip) | [Catalan](http://vectors.nlpl.eu/repository/11/138.zip) | [Czech](http://vectors.nlpl.eu/repository/11/139.zip) |
+| [Old Church Slavonic](http://vectors.nlpl.eu/repository/11/140.zip) | [Danish](http://vectors.nlpl.eu/repository/11/141.zip) | [German](http://vectors.nlpl.eu/repository/11/142.zip) | [Greek](http://vectors.nlpl.eu/repository/11/143.zip) |
+| [English](http://vectors.nlpl.eu/repository/11/144.zip) | [Spanish](http://vectors.nlpl.eu/repository/11/145.zip) | [Estonian](http://vectors.nlpl.eu/repository/11/146.zip) | [Basque](http://vectors.nlpl.eu/repository/11/147.zip) |
+| [Persian](http://vectors.nlpl.eu/repository/11/148.zip) | [Finnish](http://vectors.nlpl.eu/repository/11/149.zip) | [French](http://vectors.nlpl.eu/repository/11/150.zip) | [Irish](http://vectors.nlpl.eu/repository/11/151.zip) |
+| [Galician](http://vectors.nlpl.eu/repository/11/152.zip) | [Ancient Greek](http://vectors.nlpl.eu/repository/11/153.zip) | [Hebrew](http://vectors.nlpl.eu/repository/11/154.zip) | [Hindi](http://vectors.nlpl.eu/repository/11/155.zip) |
+| [Croatian](http://vectors.nlpl.eu/repository/11/156.zip) | [Hungarian](http://vectors.nlpl.eu/repository/11/157.zip) | [Indonesian](http://vectors.nlpl.eu/repository/11/158.zip) | [Italian](http://vectors.nlpl.eu/repository/11/159.zip) |
+| [Japanese](http://vectors.nlpl.eu/repository/11/160.zip) | [Korean](http://vectors.nlpl.eu/repository/11/161.zip) | [Latin](http://vectors.nlpl.eu/repository/11/162.zip) | [Latvian](http://vectors.nlpl.eu/repository/11/163.zip) |
+| [Norwegian Bokmål](http://vectors.nlpl.eu/repository/11/165.zip) | [Dutch](http://vectors.nlpl.eu/repository/11/164.zip) | [Norwegian Nynorsk](http://vectors.nlpl.eu/repository/11/166.zip) | [Polish](http://vectors.nlpl.eu/repository/11/167.zip) |
+| [Portuguese](http://vectors.nlpl.eu/repository/11/168.zip) | [Romanian](http://vectors.nlpl.eu/repository/11/169.zip) | [Russian](http://vectors.nlpl.eu/repository/11/170.zip) | [Slovak](http://vectors.nlpl.eu/repository/11/171.zip) |
+| [Slovene](http://vectors.nlpl.eu/repository/11/172.zip) | [Swedish](http://vectors.nlpl.eu/repository/11/173.zip) | [Turkish](http://vectors.nlpl.eu/repository/11/174.zip) | [Uyghur](http://vectors.nlpl.eu/repository/11/175.zip) |
+| [Ukrainian](http://vectors.nlpl.eu/repository/11/176.zip) | [Urdu](http://vectors.nlpl.eu/repository/11/177.zip) | [Vietnamese](http://vectors.nlpl.eu/repository/11/178.zip) | [Chinese](http://vectors.nlpl.eu/repository/11/179.zip) |
 The models are hosted on the [NLPL Vectors Repository](http://wiki.nlpl.eu/index.php/Vectors/home).
 
 **ELMo for Simplified Chinese**
