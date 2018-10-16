@@ -40,3 +40,5 @@ def sents2elmo(sents, output_layer=-1):
 * pytorch 0.4
 * overrides
 * other requirements from allennlp
+* download the elmo model you need from [here](https://github.com/HIT-SCIR/ELMoForManyLangs#downloads) to the top directory.
+* change line 234 of the code `elmo.py` to your new model folder name, which is `zht.model` now.
