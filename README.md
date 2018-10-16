@@ -27,7 +27,7 @@ e.sents2elmo(sents)
 class Embedder(model_dir='zht.model/', batch_size=64):
 ```
 - **model_dir**: the relative path from the repo top dir to you model dir. (default: `zht.model/`)
-- **batch_size**: the batch_size you want when the model inference, you can specify it properly according to your gpu/cpu ram size.
+- **batch_size**: the batch_size you want when the model inference, you can specify it properly according to your gpu/cpu ram size. (default: 64)
 
 ### the parameters of the function sents2elmo:
 ```python
