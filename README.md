@@ -4,15 +4,13 @@ This repo was forked from https://github.com/HIT-SCIR/ELMoForManyLangs .
 
 It is nice of [HIT-SCIR](https://github.com/HIT-SCIR) to provide the bunch of pre-trained ELMo models. However, they only have provided "file to file" conversion from tokens to vectors with restricted formats, which is not so convenient to use.
 
-I wrote a easy-to-use version to converting tokens to vectors. You can use it like this:
+I wrote an easy-to-use version to convert tokens to vectors. You can use it like this:
 
 ```python
 #import it outside the top directory of this repo
 from ELMoForManyLangs import elmo
 
-# argument `model_dir` = 
-# the relative path from the repo top dir to you model dir
-e = elmo.Embedder(model_dir='zht.model/')
+e = elmo.Embedder()
 
 sents = [['今', '天', '天氣', '真', '好', '阿'],
 ['潮水', '退', '了', '就', '知道', '誰', '沒', '穿', '褲子']]
@@ -23,6 +21,13 @@ e.sents2elmo(sents)
 # will return a list of numpy arrays 
 # each with the shape=(seq_len, embedding_size)
 ```
+
+### the parameters to init Embedder:
+```python
+class Embedder(model_dir='zht.model/', batch_size=64):
+```
+- **model_dir**: the relative path from the repo top dir to you model dir. (default: `zht.model/`)
+- **batch_size**: the batch_size you want when the model inference, you can specify it properly according to your gpu/cpu ram size.
 
 ### the parameters of the function sents2elmo:
 ```python
