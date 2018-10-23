@@ -55,10 +55,25 @@ which is different from the Wikipedia for traditional Chinese ELMo.
 
 ## Usage
 
-First, after unzip the model, please change the `"config_path"` field in `${lang}.model/config.json`
-to `${project_home}/configs/cnn_50_100_512_4096_sample.json`.
 
-Then, prepare your input file in the [conllu format](http://universaldependencies.org/format.html), like
+### Install the package
+
+You need to install the package to use the embeddings with the following commends
+```
+python setup.py install
+```
+
+### Set up the `config_path`
+After unzip the model, you will find a JSON file `${lang}.model/config.json`.
+Please change the `"config_path"` field to the relative path to 
+the model configuration `cnn_50_100_512_4096_sample.json`.
+For example, if your ELMo model is `zht.model/config.json` and your model configuration
+is `zht.model/cnn_50_100_512_4096_sample.json`, you need to change `"config_path"`
+in `zht.model/config.json` to `cnn_50_100_512_4096_sample.json`.
+
+### Use ELMoForManyLangs in command line
+
+Prepare your input file in the [conllu format](http://universaldependencies.org/format.html), like
 ```
 1   Sue    Sue    _   _   _   _   _   _   _
 2   likes  like   _   _   _   _   _   _   _
@@ -74,7 +89,7 @@ Do remember tokenization!
 When it's all set, run
 
 ```
-python src/gen_elmo.py test \
+python -m elmoformanylangs test \
     --input_format conll \
     --input /path/to/your/input \
     --model /path/to/your/model \
@@ -91,15 +106,15 @@ of the LSTM with `--output_layer 2`.
 We are actively changing the interface to make it more adapted to the 
 AllenNLP ELMo and more programmatically friendly.
 
-### Convert lists of tokens to vectors inside your own code
+### Use ELMoForManyLangs programmatically
 
-By using `Embedder` python object, you can easily merge ELMo into your own code like this:
+Thanks @voidism for contributing the API.
+By using `Embedder` python object, you can use ELMo into your own code like this:
 
 ```python
-#import it outside the top directory of this repo
-from ELMoForManyLangs import elmo
+from elmoformanylangs import Embedder
 
-e = elmo.Embedder()
+e = Embedder()
 
 sents = [['今', '天', '天氣', '真', '好', '阿'],
 ['潮水', '退', '了', '就', '知道', '誰', '沒', '穿', '褲子']]
@@ -133,7 +148,7 @@ def sents2elmo(sents, output_layer=-1):
 
 Please run 
 ```
-python src/biLM.py train -h
+python -m elmoformanylang.biLM train -h
 ```
 to get more details about the ELMo training. However, we
 need to add that the training process is not very stable.
