@@ -167,4 +167,4 @@ def block_orthogonal(tensor: torch.Tensor,
                 # start_index: start_index + step for each dimension in the tensor.
                 block_slice = tuple([slice(start_index, start_index + step)
                                      for start_index, step in index_and_step_tuples])
-                tensor[block_slice] = torch.nn.init.orthogonal(tensor[block_slice].contiguous(), gain=gain)
+                tensor[block_slice] = torch.nn.init.orthogonal_(tensor[block_slice].contiguous(), gain=gain)
