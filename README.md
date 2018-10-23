@@ -27,34 +27,53 @@ The training of ELMo on one language takes roughly 3 days on an NVIDIA P100 GPU.
 
 |   |   |   |   |
 |---|---|---|---|
-| [Arabic](http://pbmpb9h15.bkt.gdipper.com/ar.model.tar.xz) | [Bulgarian](http://pbmpb9h15.bkt.gdipper.com/bg.model.tar.xz) | [Catalan](http://pbmpb9h15.bkt.gdipper.com/ca.model.tar.xz) | [Czech](http://pbmpb9h15.bkt.gdipper.com/cs.model.tar.xz)  |
-| [Old Church Slavonic](http://pbmpb9h15.bkt.gdipper.com/cu.model.tar.xz) | [Danish](http://pbmpb9h15.bkt.gdipper.com/da.model.tar.xz) | [German](http://pbmpb9h15.bkt.gdipper.com/de.model.tar.xz) | [Greek](http://pbmpb9h15.bkt.gdipper.com/el.model.tar.xz) | 
-| [English](http://pbmpb9h15.bkt.gdipper.com/en.model.tar.xz) | [Spanish](http://pbmpb9h15.bkt.gdipper.com/es.model.tar.xz) | [Estonian](http://pbmpb9h15.bkt.gdipper.com/et.model.tar.xz) | [Basque](http://pbmpb9h15.bkt.gdipper.com/eu.model.tar.xz) |
-| [Persian](http://pbmpb9h15.bkt.gdipper.com/fa.model.tar.xz) | [Finnish](http://pbmpb9h15.bkt.gdipper.com/fi.model.tar.xz) | [French](http://pbmpb9h15.bkt.gdipper.com/fr.model.tar.xz) | [Irish](http://pbmpb9h15.bkt.gdipper.com/ga.model.tar.xz) | 
-| [Galician](http://pbmpb9h15.bkt.gdipper.com/gl.model.tar.xz) | [Ancient_Greek](http://pbmpb9h15.bkt.gdipper.com/grc.model.tar.xz) | [Hebrew](http://pbmpb9h15.bkt.gdipper.com/he.model.tar.xz) | [Hindi](http://pbmpb9h15.bkt.gdipper.com/hi.model.tar.xz) | 
-| [Croatian](http://pbmpb9h15.bkt.gdipper.com/hr.model.tar.xz) | [Hungarian](http://pbmpb9h15.bkt.gdipper.com/hu.model.tar.xz) | [Indonesian](http://pbmpb9h15.bkt.gdipper.com/id.model.tar.xz) | [Italian](http://pbmpb9h15.bkt.gdipper.com/it.model.tar.xz) |
-| [Japanese](http://pbmpb9h15.bkt.gdipper.com/ja.model.tar.xz) | [Korean](http://pbmpb9h15.bkt.gdipper.com/ko.model.tar.xz) | [Latin](http://pbmpb9h15.bkt.gdipper.com/la.model.tar.xz) | [Latvian](http://pbmpb9h15.bkt.gdipper.com/lv.model.tar.xz) |
-| [Dutch](http://pbmpb9h15.bkt.gdipper.com/nl.model.tar.xz) | [Norwegian-Bokmaal](http://pbmpb9h15.bkt.gdipper.com/no_bokmaal.model.tar.xz) | [Norwegian-Nynorsk](http://pbmpb9h15.bkt.gdipper.com/no_nynorsk.model.tar.xz) | [Polish](http://pbmpb9h15.bkt.gdipper.com/pl.model.tar.xz) | 
-| [Portuguese](http://pbmpb9h15.bkt.gdipper.com/pt.model.tar.xz) | [Romanian](http://pbmpb9h15.bkt.gdipper.com/ro.model.tar.xz) | [Russian](http://pbmpb9h15.bkt.gdipper.com/ru.model.tar.xz) | [Slovak](http://pbmpb9h15.bkt.gdipper.com/sk.model.tar.xz) |
-| [Slovenian](http://pbmpb9h15.bkt.gdipper.com/sl.model.tar.xz) | [Swedish](http://pbmpb9h15.bkt.gdipper.com/sv.model.tar.xz) | [Turkish](http://pbmpb9h15.bkt.gdipper.com/tr.model.tar.xz) | [Uyghur](http://pbmpb9h15.bkt.gdipper.com/ug.model.tar.xz) |
-| [Ukrainian](http://pbmpb9h15.bkt.gdipper.com/uk.model.tar.xz) | [Urdu](http://pbmpb9h15.bkt.gdipper.com/ur.model.tar.xz) | [Vietnamese](http://pbmpb9h15.bkt.gdipper.com/vi.model.tar.xz) | [Traditional-Chinese](http://pbmpb9h15.bkt.gdipper.com/zht.model.tar.xz) |
-| [Simplified-Chinese](http://pbmpb9h15.bkt.gdipper.com/zhs.model.tar.xz) | | |
+| [Arabic](http://vectors.nlpl.eu/repository/11/136.zip) | [Bulgarian](http://vectors.nlpl.eu/repository/11/137.zip) | [Catalan](http://vectors.nlpl.eu/repository/11/138.zip) | [Czech](http://vectors.nlpl.eu/repository/11/139.zip) |
+| [Old Church Slavonic](http://vectors.nlpl.eu/repository/11/140.zip) | [Danish](http://vectors.nlpl.eu/repository/11/141.zip) | [German](http://vectors.nlpl.eu/repository/11/142.zip) | [Greek](http://vectors.nlpl.eu/repository/11/143.zip) |
+| [English](http://vectors.nlpl.eu/repository/11/144.zip) | [Spanish](http://vectors.nlpl.eu/repository/11/145.zip) | [Estonian](http://vectors.nlpl.eu/repository/11/146.zip) | [Basque](http://vectors.nlpl.eu/repository/11/147.zip) |
+| [Persian](http://vectors.nlpl.eu/repository/11/148.zip) | [Finnish](http://vectors.nlpl.eu/repository/11/149.zip) | [French](http://vectors.nlpl.eu/repository/11/150.zip) | [Irish](http://vectors.nlpl.eu/repository/11/151.zip) |
+| [Galician](http://vectors.nlpl.eu/repository/11/152.zip) | [Ancient Greek](http://vectors.nlpl.eu/repository/11/153.zip) | [Hebrew](http://vectors.nlpl.eu/repository/11/154.zip) | [Hindi](http://vectors.nlpl.eu/repository/11/155.zip) |
+| [Croatian](http://vectors.nlpl.eu/repository/11/156.zip) | [Hungarian](http://vectors.nlpl.eu/repository/11/157.zip) | [Indonesian](http://vectors.nlpl.eu/repository/11/158.zip) | [Italian](http://vectors.nlpl.eu/repository/11/159.zip) |
+| [Japanese](http://vectors.nlpl.eu/repository/11/160.zip) | [Korean](http://vectors.nlpl.eu/repository/11/161.zip) | [Latin](http://vectors.nlpl.eu/repository/11/162.zip) | [Latvian](http://vectors.nlpl.eu/repository/11/163.zip) |
+| [Norwegian Bokmål](http://vectors.nlpl.eu/repository/11/165.zip) | [Dutch](http://vectors.nlpl.eu/repository/11/164.zip) | [Norwegian Nynorsk](http://vectors.nlpl.eu/repository/11/166.zip) | [Polish](http://vectors.nlpl.eu/repository/11/167.zip) |
+| [Portuguese](http://vectors.nlpl.eu/repository/11/168.zip) | [Romanian](http://vectors.nlpl.eu/repository/11/169.zip) | [Russian](http://vectors.nlpl.eu/repository/11/170.zip) | [Slovak](http://vectors.nlpl.eu/repository/11/171.zip) |
+| [Slovene](http://vectors.nlpl.eu/repository/11/172.zip) | [Swedish](http://vectors.nlpl.eu/repository/11/173.zip) | [Turkish](http://vectors.nlpl.eu/repository/11/174.zip) | [Uyghur](http://vectors.nlpl.eu/repository/11/175.zip) |
+| [Ukrainian](http://vectors.nlpl.eu/repository/11/176.zip) | [Urdu](http://vectors.nlpl.eu/repository/11/177.zip) | [Vietnamese](http://vectors.nlpl.eu/repository/11/178.zip) | [Chinese](http://vectors.nlpl.eu/repository/11/179.zip) |
 
+The models are hosted on the [NLPL Vectors Repository](http://wiki.nlpl.eu/index.php/Vectors/home).
 
-The Simplified Chinese model was trained on xinhua proportion of [Chinese gigawords-v5](https://catalog.ldc.upenn.edu/ldc2011t13).
+**ELMo for Simplified Chinese**
+
+We also provided [simplified-Chinese ELMo](http://pbmpb9h15.bkt.gdipper.com/zhs.model.tar.xz).
+It was trained on xinhua proportion of [Chinese gigawords-v5](https://catalog.ldc.upenn.edu/ldc2011t13),
+which is different from the Wikipedia for traditional Chinese ELMo.
 
 ## Pre-requirements
 
-* python 3.6 
+* **must** python >= 3.6 (if you use python3.5, you will encounter this issue https://github.com/HIT-SCIR/ELMoForManyLangs/issues/8)
 * pytorch 0.4
 * other requirements from allennlp
 
 ## Usage
 
-First, after unzip the model, please change the `"config_path"` field in `${lang}.model/config.json`
-to `${project_home}/configs/cnn_50_100_512_4096_sample.json`.
 
-Then, prepare your input file in the [conllu format](http://universaldependencies.org/format.html), like
+### Install the package
+
+You need to install the package to use the embeddings with the following commends
+```
+python setup.py install
+```
+
+### Set up the `config_path`
+After unzip the model, you will find a JSON file `${lang}.model/config.json`.
+Please change the `"config_path"` field to the relative path to 
+the model configuration `cnn_50_100_512_4096_sample.json`.
+For example, if your ELMo model is `zht.model/config.json` and your model configuration
+is `zht.model/cnn_50_100_512_4096_sample.json`, you need to change `"config_path"`
+in `zht.model/config.json` to `cnn_50_100_512_4096_sample.json`.
+
+### Use ELMoForManyLangs in command line
+
+Prepare your input file in the [conllu format](http://universaldependencies.org/format.html), like
 ```
 1   Sue    Sue    _   _   _   _   _   _   _
 2   likes  like   _   _   _   _   _   _   _
@@ -70,7 +89,7 @@ Do remember tokenization!
 When it's all set, run
 
 ```
-python src/gen_elmo.py test \
+python -m elmoformanylangs test \
     --input_format conll \
     --input /path/to/your/input \
     --model /path/to/your/model \
@@ -87,11 +106,49 @@ of the LSTM with `--output_layer 2`.
 We are actively changing the interface to make it more adapted to the 
 AllenNLP ELMo and more programmatically friendly.
 
+### Use ELMoForManyLangs programmatically
+
+Thanks @voidism for contributing the API.
+By using `Embedder` python object, you can use ELMo into your own code like this:
+
+```python
+from elmoformanylangs import Embedder
+
+e = Embedder()
+
+sents = [['今', '天', '天氣', '真', '好', '阿'],
+['潮水', '退', '了', '就', '知道', '誰', '沒', '穿', '褲子']]
+# the list of lists which store the sentences 
+# after segment if necessary.
+
+e.sents2elmo(sents)
+# will return a list of numpy arrays 
+# each with the shape=(seq_len, embedding_size)
+```
+
+#### the parameters to init Embedder:
+```python
+class Embedder(model_dir='zht.model/', batch_size=64):
+```
+- **model_dir**: the relative path from the repo top dir to you model dir. (default: `zht.model/`)
+- **batch_size**: the batch_size you want when the model inference, you can specify it properly according to your gpu/cpu ram size. (default: 64)
+
+#### the parameters of the function sents2elmo:
+```python
+def sents2elmo(sents, output_layer=-1):
+```
+- **sents**: the list of lists which store the sentences after segment if necessary.
+-  **output_layer**: the target layer to output. 
+    -  0 for the word encoder
+    -  1 for the first LSTM hidden layer
+    -  2 for the second LSTM hidden layer
+    -  -1 for an average of 3 layers. (default)
+
 ## Training Your Own ELMo
 
 Please run 
 ```
-python src/biLM.py train -h
+python -m elmoformanylang.biLM train -h
 ```
 to get more details about the ELMo training. However, we
 need to add that the training process is not very stable.
@@ -114,9 +171,21 @@ If our ELMo gave you nice improvements, please cite us.
   pages     = {55--64},
   url       = {http://www.aclweb.org/anthology/K18-2005}
 }
-
 ```
 
-## Contributor
-
-* Bo Zheng <<bzheng@ir.hit.edu.cn>>
+Please also cite the 
+[NLPL Vectors Repository](http://wiki.nlpl.eu/index.php/Vectors/home)
+for hosting the models.
+```
+@InProceedings{fares-EtAl:2017:NoDaLiDa,
+  author    = {Fares, Murhaf  and  Kutuzov, Andrey  and  Oepen, Stephan  and  Velldal, Erik},
+  title     = {Word vectors, reuse, and replicability: Towards a community repository of large-text resources},
+  booktitle = {Proceedings of the 21st Nordic Conference on Computational Linguistics},
+  month     = {May},
+  year      = {2017},
+  address   = {Gothenburg, Sweden},
+  publisher = {Association for Computational Linguistics},
+  pages     = {271--276},
+  url       = {http://www.aclweb.org/anthology/W17-0237}
+}
+```

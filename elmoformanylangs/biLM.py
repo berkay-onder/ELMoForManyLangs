@@ -14,22 +14,18 @@ import torch
 import torch.nn as nn
 import torch.nn.functional as F
 import torch.optim as optim
-import collections
 from torch.autograd import Variable
-from modules.elmo import ElmobiLm
-from modules.lstm import LstmbiLm
-from modules.token_embedder import ConvTokenEmbedder, LstmTokenEmbedder
-from modules.embedding_layer import EmbeddingLayer
-from modules.classify_layer import SoftmaxLayer, CNNSoftmaxLayer, SampledSoftmaxLayer
-from dataloader import load_embedding
+from .modules.elmo import ElmobiLm
+from .modules.lstm import LstmbiLm
+from .modules.token_embedder import ConvTokenEmbedder, LstmTokenEmbedder
+from .modules.embedding_layer import EmbeddingLayer
+from .modules.classify_layer import SoftmaxLayer, CNNSoftmaxLayer, SampledSoftmaxLayer
+from .dataloader import load_embedding
+from .utils import dict2namedtuple
 from collections import Counter
 import numpy as np
 
 logging.basicConfig(level=logging.INFO, format='%(asctime)-15s %(levelname)s: %(message)s')
-
-
-def dict2namedtuple(dic):
-  return collections.namedtuple('Namespace', dic.keys())(**dic)
 
 
 def divide(data, valid_size):
