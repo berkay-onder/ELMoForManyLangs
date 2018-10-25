@@ -114,7 +114,7 @@ By using `Embedder` python object, you can use ELMo into your own code like this
 ```python
 from elmoformanylangs import Embedder
 
-e = Embedder()
+e = Embedder('/path/to/your/model/')
 
 sents = [['今', '天', '天氣', '真', '好', '阿'],
 ['潮水', '退', '了', '就', '知道', '誰', '沒', '穿', '褲子']]
@@ -128,9 +128,9 @@ e.sents2elmo(sents)
 
 #### the parameters to init Embedder:
 ```python
-class Embedder(model_dir='zht.model/', batch_size=64):
+class Embedder(model_dir='/path/to/your/model/', batch_size=64):
 ```
-- **model_dir**: the relative path from the repo top dir to you model dir. (default: `zht.model/`)
+- **model_dir**: the absolute path from the repo top dir to you model dir.
 - **batch_size**: the batch_size you want when the model inference, you can specify it properly according to your gpu/cpu ram size. (default: 64)
 
 #### the parameters of the function sents2elmo:
@@ -138,7 +138,7 @@ class Embedder(model_dir='zht.model/', batch_size=64):
 def sents2elmo(sents, output_layer=-1):
 ```
 - **sents**: the list of lists which store the sentences after segment if necessary.
--  **output_layer**: the target layer to output. 
+- **output_layer**: the target layer to output. 
     -  0 for the word encoder
     -  1 for the first LSTM hidden layer
     -  2 for the second LSTM hidden layer

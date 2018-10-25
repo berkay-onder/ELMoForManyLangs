@@ -102,7 +102,7 @@ def create_batches(x, batch_size, word2id, char2id, config, perm=None, shuffle=F
 
 
 class Embedder(object):
-    def __init__(self, model_dir='zht.model/', batch_size=64):
+    def __init__(self, model_dir, batch_size=64):
         self.model_dir = model_dir
         self.model, self.config = self.get_model()
         self.batch_size = batch_size
