@@ -45,12 +45,12 @@ def break_sentence(sentence, max_sent_len):
   """
   ret = []
   cur = 0
-  l = len(sentence)
-  while cur < l:
-    if cur + max_sent_len + 5 >= l:
-      ret.append(sentence[cur: l])
+  length = len(sentence)
+  while cur < length:
+    if cur + max_sent_len + 5 >= length:
+      ret.append(sentence[cur: length])
       break
-    ret.append(sentence[cur: min(l, cur + max_sent_len)])
+    ret.append(sentence[cur: min(length, cur + max_sent_len)])
     cur += max_sent_len
   return ret
 
@@ -221,8 +221,9 @@ class Model(nn.Module):
     if config['classifier']['name'].lower() == 'softmax':
       self.classify_layer = SoftmaxLayer(self.output_dim, n_class)
     elif config['classifier']['name'].lower() == 'cnn_softmax':
-      self.classify_layer = CNNSoftmaxLayer(self.token_embedder, self.output_dim, n_class, 
-                                       config['classifier']['n_samples'], config['classifier']['corr_dim'], use_cuda)
+      self.classify_layer = CNNSoftmaxLayer(self.token_embedder, self.output_dim, n_class,
+                                            config['classifier']['n_samples'], config['classifier']['corr_dim'],
+                                            use_cuda)
     elif config['classifier']['name'].lower() == 'sampled_softmax':
       self.classify_layer = SampledSoftmaxLayer(self.output_dim, n_class, config['classifier']['n_samples'], use_cuda)
 
@@ -289,7 +290,6 @@ def eval_model(model, valid):
   if model.config['classifier']['name'].lower() == 'cnn_softmax' or \
       model.config['classifier']['name'].lower() == 'sampled_softmax':
     model.classify_layer.update_embedding_matrix()
-    #print('emb mat size: ', model.classify_layer.embedding_matrix.size())
   total_loss, total_tag = 0.0, 0
   valid_w, valid_c, valid_lens, valid_masks = valid
   for w, c, lens, masks in zip(valid_w, valid_c, valid_lens, valid_masks):
@@ -384,7 +384,7 @@ def get_truncated_vocab(dataset, min_count):
   """
 
   :param dataset:
-  :param min_count:
+  :param min_count: int
   :return:
   """
   word_count = Counter()
@@ -394,9 +394,11 @@ def get_truncated_vocab(dataset, min_count):
   word_count = list(word_count.items())
   word_count.sort(key=lambda x: x[1], reverse=True)
 
-  for i, (word, count) in enumerate(word_count):
+  i = 0
+  for word, count in word_count:
     if count < min_count:
       break
+    i += 1
 
   logging.info('Truncated word count: {0}.'.format(sum([count for word, count in word_count[i:]])))
   logging.info('Original vocabulary size: {0}.'.format(len(word_count)))
@@ -550,7 +552,7 @@ def train():
     train_data, opt.batch_size, word_lexicon, char_lexicon, config, use_cuda=use_cuda)
 
   if opt.eval_steps is None:
-    opt.eval_steps = len(train_w)
+    opt.eval_steps = len(train[0])
   logging.info('Evaluate every {0} batches.'.format(opt.eval_steps))
 
   if valid_data is not None:
@@ -569,11 +571,6 @@ def train():
   logging.info('vocab size: {0}'.format(len(label_to_ix)))
   
   nclasses = len(label_to_ix)
-
-  #for s in train_w:
-  #  for i in range(s.view(-1).size(0)):
-  #    if s.view(-1)[i] >= nclasses:
-  #      print(s.view(-1)[i])
 
   model = Model(config, word_emb_layer, char_emb_layer, nclasses, use_cuda)
   logging.info(str(model))
