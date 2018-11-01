@@ -148,7 +148,7 @@ def sents2elmo(sents, output_layer=-1):
 
 Please run 
 ```
-python -m elmoformanylang.biLM train -h
+python -m elmoformanylangs.biLM train -h
 ```
 to get more details about the ELMo training. However, we
 need to add that the training process is not very stable.
