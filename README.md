@@ -71,6 +71,13 @@ For example, if your ELMo model is `zht.model/config.json` and your model config
 is `zht.model/cnn_50_100_512_4096_sample.json`, you need to change `"config_path"`
 in `zht.model/config.json` to `cnn_50_100_512_4096_sample.json`.
 
+If there is no configuration `cnn_50_100_512_4096_sample.json` under `${lang}.model`,
+you can copy the `configs/cnn_50_100_512_4096_sample.json` into `${lang}.model`,
+or change the `"config_path"` into  `configs/cnn_50_100_512_4096_sample.json`.
+
+See [issue 27](https://github.com/HIT-SCIR/ELMoForManyLangs/issues/27) for more details. 
+
+
 ### Use ELMoForManyLangs in command line
 
 Prepare your input file in the [conllu format](http://universaldependencies.org/format.html), like
@@ -89,7 +96,7 @@ Do remember tokenization!
 When it's all set, run
 
 ```
-python -m elmoformanylangs test \
+$ python -m elmoformanylangs test \
     --input_format conll \
     --input /path/to/your/input \
     --model /path/to/your/model \
@@ -148,9 +155,34 @@ def sents2elmo(sents, output_layer=-1):
 
 Please run 
 ```
-python -m elmoformanylangs.biLM train -h
+$ python -m elmoformanylangs.biLM train -h
 ```
-to get more details about the ELMo training. However, we
+to get more details about the ELMo training. 
+
+Here is an example for training English ELMo.
+```
+$ less data/en.raw
+... (snip) ...
+Notable alumni
+Aris Kalafatis ( Acting )
+Labour Party
+They build an open nest in a tree hole , or man - made nest - boxes .
+Legacy
+... (snip) ...
+
+$ python -m elmoformanylangs.biLM train \
+    --train_path data/en.raw \
+    --config_path configs/cnn_50_100_512_4096_sample.json \
+    --model output/en \
+    --optimizer adam \
+    --lr 0.001 \
+    --lr_decay 0.8 \
+    --max_epoch 10 \
+    --max_sent_len 20 \
+    --max_vocab_size 150000 \
+    --min_count 3
+```
+However, we
 need to add that the training process is not very stable.
 In some cases, we end up with a loss of `nan`. We are actively working on that and hopefully
 improve it in the future.
