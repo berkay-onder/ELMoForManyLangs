@@ -200,6 +200,8 @@ class Embedder(object):
 
                 if output_layer == -1:
                     payload = np.average(data, axis=0)
+                elif output_layer == -2:
+                    payload = data
                 else:
                     payload = data[output_layer]
                 after_elmo.append(payload)
