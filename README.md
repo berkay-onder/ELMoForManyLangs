@@ -150,6 +150,7 @@ def sents2elmo(sents, output_layer=-1):
     -  1 for the first LSTM hidden layer
     -  2 for the second LSTM hidden layer
     -  -1 for an average of 3 layers. (default)
+    -  -2 for all 3 layers
 
 ## Training Your Own ELMo
 
