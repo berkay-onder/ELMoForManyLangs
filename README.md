@@ -43,7 +43,7 @@ The models are hosted on the [NLPL Vectors Repository](http://wiki.nlpl.eu/index
 
 **ELMo for Simplified Chinese**
 
-We also provided [simplified-Chinese ELMo](http://pbmpb9h15.bkt.gdipper.com/zhs.model.tar.xz).
+We also provided [simplified-Chinese ELMo](https://pan.baidu.com/s/1RNKnj6hgL-2orQ7f38CauA?errno=0&errmsg=Auth%20Login%20Sucess&&bduss=&ssnerror=0&traceid=) (see [issue 37](https://github.com/HIT-SCIR/ELMoForManyLangs/issues/37)).
 It was trained on xinhua proportion of [Chinese gigawords-v5](https://catalog.ldc.upenn.edu/ldc2011t13),
 which is different from the Wikipedia for traditional Chinese ELMo.
 
